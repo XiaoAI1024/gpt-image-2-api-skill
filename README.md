@@ -127,3 +127,7 @@ curl "$BASE_URL/v1/images/generations" \
 
 jq -r '.data[0].b64_json' image_response.json | base64 --decode > image.png
 ```
+
+## Community / 社区
+
+Community: https://linux.do
